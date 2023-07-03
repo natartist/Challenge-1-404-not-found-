@@ -65,7 +65,18 @@ footer {
   margin-top: 170px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
+    img {
+        margin-left: -20px;
+    }
+    h1 {
+        margin-right: -50px;
+    }
+    h5 {
+        margin-right: 85px !important;
+    }
+}
+@media (max-width: 765px) {
   img {
     margin-left: 20px;
     margin-top: -45px;
